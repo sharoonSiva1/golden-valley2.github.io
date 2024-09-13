@@ -1,0 +1,288 @@
+* {
+	padding: 0;
+	font-family: 'Times New Roman', Times, serif;
+	/*background-color: black;*/
+}
+
+
+#logo {
+	width: 130px;
+	padding-left: 10px;
+	padding-top: 12px;
+}
+
+.topnav .logo{
+
+	float:left;
+	height :100px;
+	width : 100px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+  }	
+
+nav {
+	height: 95px;
+	background: black;
+}
+
+.nav-icon {
+	position: relative;
+	width: 20px;
+	top: 2px;
+}
+
+.topnav { /* desinging the navigation bar */
+    background-color: #8dc3c4c8;
+	height: 100px;
+    z-index: 1;
+	object-fit: fill;
+}
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 18px 18px;
+    text-decoration: none;
+    font-size: 20px;
+	box-shadow: inset 0 0 0 0 #346465;
+}
+div.topnav{
+	object-fit: fill;
+	box-shadow: inset 0 0 0 0 #56a274;
+}
+  
+.topnav a:hover { /* hover effect of the navigation bar */
+    box-shadow: inset 400px 0 0 0 #346465;
+}
+  
+.topnav a.active {  /* setting color when active */
+    background-color: #cde5e5;
+}
+.topnav-right { /* floating items of the navigation bar to right */
+    float: right;
+	overflow: hidden;
+	height:55px;
+}
+.topnav-right, a{
+	padding-bottom:5px;
+	float: right;
+}
+
+ul {
+	list-style: none;
+}
+
+ul li {
+	float: left;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+ul li a:hover {
+	color: #555;
+}
+
+nav ul li ul li{
+	display: none;
+}
+
+nav ul li:hover ul li{ 
+	display: block;
+	background: black;
+}
+
+#nav-links {
+	position: absolute;
+	left: 771px;
+	top: 30px
+}
+
+nav	ul li.active a{
+	background-color: #fff;
+	height: 65px;
+	color: #000;
+}
+
+.slide-container {
+	position: relative;
+	width: 93%;
+	height: 799px;
+	background: url(images/Banner-01.png);
+	margin: 15px auto;
+	animation: slide 15s infinite;
+}
+
+@keyframes slide {
+	50% {
+		background: url(images/Banner-02.png);
+	}
+
+	100% {
+		background: url(images/Banner-03.png);
+	}
+}
+
+footer {
+	position: relative;
+	background-color: black;
+	color: white;
+	text-align: center;
+	height: 100px;
+}
+
+h5 {
+	position: relative;
+	top: 55px;
+	left: -1.58px;
+}
+
+h5 a{
+	color: white;
+	text-decoration: none;
+}
+
+h6 {
+  position: relative;
+  top: 60px;
+  left: -1.58px;
+  font-size: 12px;
+}
+
+h6 a{
+  text-decoration: none;
+  color: white;
+}
+
+h6 a:hover{
+  color: #555;
+}
+
+/* Media Query for screens smaller than 768px (tablets) */
+@media (max-width: 768px) {
+    /* Navigation adjustments */
+    nav {
+        height: auto;
+    }
+    
+    .topnav {
+        height: auto;
+        display: block;
+        text-align: center;
+    }
+    
+    .topnav a {
+        display: block;
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    .topnav-right {
+        float: none;
+        padding-bottom: 0;
+        height: auto;
+    }
+    
+    /* Logo adjustments */
+    .topnav .logo {
+        float: none;
+        margin: 10px auto;
+        height: auto;
+        width: 50%;
+    }
+
+    #logo {
+        width: 80px;
+        padding-left: 0;
+        padding-top: 10px;
+    }
+
+    /* Slide container adjustments */
+    .slide-container {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Adjust UL elements for better stacking */
+    ul {
+        padding-left: 0;
+    }
+
+    ul li {
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+
+    /* Footer adjustments */
+    footer {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    h5, h6 {
+        top: 0;
+        left: 0;
+        text-align: center;
+    }
+}
+
+/* Media Query for screens smaller than 480px (mobile phones) */
+@media (max-width: 480px) {
+    /* Navigation adjustments */
+    nav {
+        height: auto;
+        text-align: center;
+    }
+
+    .topnav {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .topnav a {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    /* Adjust logo size */
+    #logo {
+        width: 60px;
+        padding: 5px;
+    }
+
+    /* Adjust nav links for smaller screens */
+    #nav-links {
+        position: relative;
+        left: 0;
+        top: 0;
+        margin: 10px auto;
+    }
+
+    /* Slide container adjustments */
+    .slide-container {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    /* Footer adjustments */
+    footer {
+        height: auto;
+        padding: 15px 0;
+    }
+
+    h5, h6 {
+        top: 0;
+        left: 0;
+        text-align: center;
+    }
+}

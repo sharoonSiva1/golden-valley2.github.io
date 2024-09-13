@@ -1,0 +1,215 @@
+/* General styling for body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Main form container styling */
+form {
+    background-color: white;
+    padding: 30px;
+    margin-top: 50px;
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #008cba;
+}
+
+/* Input field styling */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Radio button group */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+label[for="gender"],
+label[for="visited"] {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Submit and Reset buttons */
+input[type="submit"],
+input[type="reset"] {
+    background-color: #008cba;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+input[type="reset"] {
+    background-color: #dc3545;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    opacity: 0.9;
+}
+
+/* Additional enhancements */
+input[type="submit"],
+input[type="reset"] {
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #005f73;
+}
+
+input[type="reset"]:hover {
+    background-color: #c82333;
+}
+/* Media Query for screens smaller than 768px (tablets) */
+@media (max-width: 768px) {
+    /* Navigation adjustments */
+    nav {
+        height: auto;
+    }
+
+    .topnav {
+        height: auto;
+        display: block;
+        text-align: center;
+    }
+
+    .topnav a {
+        display: block;
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    .topnav-right {
+        float: none;
+        padding-bottom: 0;
+        height: auto;
+    }
+
+    /* Logo adjustments */
+    .topnav .logo {
+        float: none;
+        margin: 10px auto;
+        height: auto;
+        width: 50%;
+    }
+
+    #logo {
+        width: 80px;
+        padding-left: 0;
+        padding-top: 10px;
+    }
+
+    /* Slide container adjustments */
+    .slide-container {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Adjust UL elements for better stacking */
+    ul {
+        padding-left: 0;
+    }
+
+    ul li {
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+
+    /* Footer adjustments */
+    footer {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    h5, h6 {
+        top: 0;
+        left: 0;
+        text-align: center;
+    }
+}
+
+/* Media Query for screens smaller than 480px (mobile phones) */
+@media (max-width: 480px) {
+    /* Navigation adjustments */
+    nav {
+        height: auto;
+        text-align: center;
+    }
+
+    .topnav {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .topnav a {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    /* Adjust logo size */
+    #logo {
+        width: 60px;
+        padding: 5px;
+    }
+
+    /* Adjust nav links for smaller screens */
+    #nav-links {
+        position: relative;
+        left: 0;
+        top: 0;
+        margin: 10px auto;
+    }
+
+    /* Slide container adjustments */
+    .slide-container {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    /* Footer adjustments */
+    footer {
+        height: auto;
+        padding: 15px 0;
+    }
+
+    h5, h6 {
+        top: 0;
+        left: 0;
+        text-align: center;
+    }
+}
+

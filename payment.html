@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <link rel="stylesheet" href="paymentgateway.css"/>
+    <link rel="stylesheet" href="enhancement.css"/>
+    <title>Payment Gateway</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+</head>
+<header>	
+    <div class="topnav">
+        <img class="logo" src ="images/logo.jpg" alt = "Logo">
+        <div class="logo">
+        <p>Golden Valley Hospital</p>
+        </div>
+        <div class="topnav-right">
+            <a class="active" href="index.html">Home</a>
+            <a href="pharmacy.html">Pharmacy</a>
+            <a href="services.html">Services</a>
+            <a href="doctors.html">Doctors</a>
+            <a href="form.html"> Appointments</a>
+            <a href="login.html">Login</a>
+            <a href="about.html">About Us</a>
+        </div>	
+    </div>
+    <div class="bg"></div>
+    
+
+</header>
+<body>
+   
+
+    <div class="maindiv">
+        <div class="box1">
+            <div class="inbox1">
+
+                <div class="inbox2">
+                    <div class="inbox3">
+                        <label class="text1">Order Summery</label>
+                    </div>
+                    <div class="inbox4">
+                       <select class="select1">
+                        <option>English</option>
+                        <option>Turkish</option>
+                        <option>Spanish</option>
+                        <option>Hindi</option>
+                        <option>Russian</option>
+                        <option>Dutch</option>
+
+                       </select>
+                    </div>
+                </div>
+
+                <div class="inbox5">
+                    <div class="inbox6">
+                        <div class="inbox8">
+                            <p class="text2">References :</p>
+                            <p class="text2">Description :</p>
+                            <p class="text2">Amount :</p>
+
+                        </div>
+
+                    </div>
+                    <div class="inbox7">
+                        <p class="text3"> 90000986554433334567876</p>
+                        <p class="text3">makePayment :</p>
+                        <p class="text3">$ 1000.00</p>
+
+
+                    </div>
+
+                </div>
+                
+               
+            </div>
+
+            <div class="inbox9">
+
+                <div class="inbox2">
+                    <div class="inbox3">
+                        <label class="text1">Payment Details</label><br/>                       
+                        <label class="text4 fontSize">indicates a reqired faield</label>
+
+                    </div>
+                    <div class="inbox4">
+                       <div class="visaImg"></div>
+                    </div>
+                </div>
+
+                <div class="inbox10">
+                    <div class="inbox11">
+                        <div class="inbox8">
+                            <p class="text2">Card Number </p>
+                            <input type="password" placeholder="23412345667" class="input1"/>
+                            <p class="text2">Expiry Date </p>
+                            <input type="date" class="input2"/>
+
+                        </div>
+
+                    </div>
+                    <div class="inbox12">
+                        <div class="inbox8">
+                            <p class="text2">Cardholder's Name </p>
+                            <input type="text" placeholder="Supun Sulakshana" class="input1"/>
+                            <p class="text2">Security code </p>
+                            <input type="text" placeholder="CVC" class="input3"/>
+                            <label>
+                                last 3 digits on the back of card
+                            </label>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+                <div class="billingBox" id="billingViewBox1">
+                    <div class="billingAddress" id="billingAddress">
+                        <label class="text1">Billing Address</label><br/>                       
+                        <label class="text4 fontSize">115 New Cavendish Street, LONDON, W1W 6UW United Kingdom</label>
+
+                    </div>
+                    <div class="billingdetailsEditeBox" id="billingdetailsEdite">
+                       <p class="text5" id="editeText1" onclick="openBillingDetails();">Edit</p>
+                    </div>
+                </div>
+
+                <div class="Billing-detailsBox" id="billingViewBox2">
+                    
+                    <div class="billingBox2">
+                        <div class="billingInBox1">
+                            <label>Address 1 :</label><br/><br/>
+                            <label>Address 2 :</label><br/><br/>
+                            <label>Address 3 :</label><br/><br/>
+                            <label>TownCity  :</label><br/><br/>
+                            <label>State/Region  :</label><br/><br/>
+                            <label>PosyCode/ZipCode  :</label><br/><br/>
+                            <label>Country  :</label>
+
+
+
+
+                        </div>
+                        <div class="billingInBox2">
+                            <input type="text" class="billingInput1"/><br/>
+                            <input type="text" class="billingInput1"/><br/>
+                            <input type="text" class="billingInput1"/><br/>
+                            <input type="text" class="billingInput1"/><br/>
+                            <input type="text" class="billingInput1"/><br/>
+                            <input type="text" class="billingInput1"/><br/>
+                            <select class="billingSelect1">
+                                <option>Sri Lanka</option>
+                                <option>India</option>
+                                <option>Japan</option>
+                            </select>
+                        </div>
+
+                        
+
+                       
+                    </div>
+
+                    <div class="BillingDetailChange">
+                        <button class="cancelBtn">Cancel Change</button>
+                        <button class="confirmBtn">Confirm</button>
+
+                        
+                   </div>
+                    
+                </div>
+
+
+                <div class="inbox13">
+                    <div class="inbox3">
+                        <label class="text1">Contact details </label><br/>                       
+                        <label class="text4 fontSize">W1234567@WESTMI... </label>
+
+                    </div>
+                    <div class="inbox4">
+                       <p class="text5" id="ContactEdite" onclick="openContactDetails();">Edit</p>
+                    </div>
+                </div>
+
+
+                <div class="ContactsDetailsBox" id="contactsViewBox">
+                    
+                    <div class="ContactsBox2">
+                        <div class="ContactsInBox1">
+                            <label>Phone Number :</label><br/><br/>
+                            <label>Email Address :</label><br/><br/>
+
+                            <!-- <button class="cancelBtn">Cancel Change</button> -->
+
+                        </div>
+                        <div class="billingInBox2">
+                            <input type="text" class="billingInput1"/><br/>
+                            <input type="text" class="billingInput1"/><br/>
+
+                            <!-- <button class="confirmBtn">Confirm</button> -->
+
+                            
+                        </div>
+
+                    </div>
+                    
+                    <div class="BillingDetailChange">
+                        <button class="cancelBtn">Cancel Change</button>
+                        <button class="confirmBtn">Confirm</button>
+
+                        
+                   </div>
+                    
+                </div>
+
+                <div class="paymentBtn">
+                    <div class="inbox3">
+                        
+                        <a href="shop.html" class="cancelBtn1">Cancel</a>
+
+                    </div>
+                    <div class="inbox4">
+                        <button onclick="thankmsg();" class="btn2">Make Payment</button>
+                    </div>
+                </div>
+                
+               
+            </div>
+
+        </div>
+
+    </div>
+
+   
+    
+
+
+</body>
+</html>

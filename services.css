@@ -1,0 +1,91 @@
+.text1 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    color: #b4ace3;   
+  }
+  
+  .background1{
+    background-color: #3b3b54;
+  }
+  .textbox {
+      background-color:#F9B5FF;
+      width: 600px;
+      padding: 50px;
+      margin: 0px;
+      text-align: justify;
+      content: "";
+      display: inline-block;
+      width: 600px;
+      position: absolute;
+  }
+  
+  dd{
+      font-size: 20px;
+      font-weight: bold;
+  }
+  dt{
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom:25px;
+      margin-top:25px;
+  }
+  /*Styles for image*/
+  
+  .pics{
+  
+      float: right;
+      height: 400px;
+      width:500px;
+      border-radius: 90%;
+      border-color: #A9A9A9;
+      box-shadow: 0px 0px 90px #000000;
+      margin-top: 10px;
+      margin-left: 450px;
+      margin-right: 70px;
+      margin-bottom: 20px;
+  }
+  
+ /* Media Query for screens smaller than 768px (tablets) */
+@media (max-width: 768px) {
+    .text1 {
+        font-size: 35px; /* Adjust font size for tablets */
+    }
+
+    .textbox {
+        width: 90%; /* Make the textbox more responsive */
+        padding: 30px; /* Reduce padding for tablets */
+        position: static; /* Change positioning to static */
+        margin: 20px auto; /* Center align and add margin */
+    }
+
+    .pics {
+        height: 300px; /* Adjust image height */
+        width: 250px; /* Adjust image width */
+        margin-left: 0; /* Remove left margin for better alignment */
+        margin-right: 0; /* Remove right margin */
+        display: block; /* Stack images vertically if needed */
+        margin: 10px auto; /* Center align images */
+    }
+}
+
+/* Media Query for screens smaller than 480px (mobile phones) */
+@media (max-width: 480px) {
+    .text1 {
+        font-size: 25px; /* Further reduce font size for mobile */
+    }
+
+    .textbox {
+        width: 100%; /* Full width for mobile devices */
+        padding: 20px; /* Reduce padding */
+        margin: 10px auto; /* Center align and reduce margin */
+        text-align: left; /* Change text alignment for mobile */
+    }
+
+    .pics {
+        height: 200px; /* Further reduce image height */
+        width: 200px; /* Further reduce image width */
+        margin: 10px auto; /* Center align images */
+        border-radius: 50%; /* Make the border fully round for small screens */
+    }
+}

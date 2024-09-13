@@ -1,0 +1,467 @@
+body{
+    background-color: rgb(100, 166, 166);
+  
+}
+
+
+.maindiv{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box1{
+    width: 600px;
+    /* height: 600px; */
+    background-color: rgb(200, 200, 200);
+    padding: 10px;
+    box-shadow: 0px 0px 20px 2px black;
+    border-radius: 8px;
+    
+}
+
+.inbox1{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding-top: 10px;
+
+}
+
+.text1{
+    color: rgb(53, 53, 252);
+    margin-left: 20px;
+}
+
+.inbox2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.inbox3{
+    width: 70%;
+    border-radius: 8px;
+
+}
+
+
+.inbox4{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+
+    
+}
+
+.select1{
+
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    
+}
+
+.inbox5{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.inbox6{
+    width: 30%;
+    height: 100px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.inbox7{
+    width: 70%;
+    height: 100px;
+}
+
+.inbox8{
+    width: 100%;
+
+}
+
+.text2{
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.text3{
+    color: rgb(65, 64, 64);
+    font-size: 14px;
+}
+
+.inbox9{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    margin-top: 10px;
+    padding-top: 10px;
+
+}
+
+.text4{
+    margin-left: 20px;
+}
+.inbox10{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 180px;
+    /* background-color: red; */
+}
+
+.inbox11{
+    width: 50%;
+    height: 100px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.inbox12{
+    width: 50%;
+    height: 100px;
+
+}
+
+.input1{
+    width: 80%;
+    height: 27px;
+    border-radius: 8px;
+    padding-left: 10px;
+   
+}
+
+.input2{
+    width: 40%;
+    height: 27px;
+    border-radius: 8px;
+   
+}
+
+.input3{
+    width: 20%;
+    height: 27px;
+    border-radius: 8px;
+    text-align: center;
+
+}
+
+.inbox13{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+.fontSize{
+    font-size: 12px;
+}
+
+.text5{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(4, 4, 4);
+    margin-left: 60px;
+}
+
+.paymentBtn{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.btn1{
+    width: 100px;
+    height: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    border-width: 2px;
+    border-color: rgb(2, 159, 2);
+    color: rgb(2, 159, 2);
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn2{
+    width: 200px;
+    height: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    border-width: 2px;
+    border-color: #075fdb;
+    color: #075fdb;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.visaImg{
+    width: 120px;
+    height: 40px;
+    background-image: url("images/creditcard.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.billingBox{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    visibility: visible;
+}
+
+.Billing-detailsBox{
+    width: 600px;
+    height: 300px;
+    /* background-color: red; */
+    /* position: absolute; */
+    display: none;
+}
+
+
+.billingBox1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.billingBox2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+.billingInBox1{
+    width: 30%;
+    padding-left: 20px;
+}
+.billingInBox2{
+    width: 70%;
+}
+
+.billingInput1{
+    width: 300px;
+    height: 20px;
+    margin-bottom: 15px;
+    background-color:rgb(198, 220, 220) ;
+    border: none;
+    border-radius: 8px;
+}
+
+.billingSelect1{
+    width: 300px;
+    height: 25px;
+    background-color:rgb(198, 220, 220) ;
+    border: none;
+    border-radius: 8px;
+    padding-left: 20px;
+    
+
+}
+
+.billingdetailsEditeBox{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.billingAddress{
+    width: 70%;
+    border-radius: 8px;
+    
+}
+.ContactsDetailsBox{
+
+    width: 600px;
+    height: 100px;
+    /* background-color: red; */
+    display: none;
+    margin-bottom: 20px;
+
+}
+
+.ContactsBox2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.ContactsInBox1{
+    width: 30%;
+    padding-left: 20px;
+}
+
+.detailsChangeBtn{
+    width: 300px;
+    height: 200px;
+    
+    background-color: red;
+}
+
+.cancelBtn{
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border-width: 2px;
+    border-color:  rgb(100, 166, 166);
+    color:  rgb(100, 166, 166);
+    border-radius: 15px;
+    margin-left: 20px;
+    /* margin-bottom: 20px; */
+    margin-top: 10px;
+    text-align: center;
+    /* margin-right: 20px;  */
+}
+
+.confirmBtn{
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border-width: 2px;
+    border-color: rgb(100, 166, 166);
+    background-color:  rgb(100, 166, 166);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    margin-left: 250px;
+    /* margin-bottom: 20px; */
+    margin-top: 10px;
+    text-align: center;
+    /* margin-right: 20px;  */
+
+}
+
+
+.BillingDetailChange{
+    width: 100%;
+    height: 100px;
+}
+.cancelBtn1{
+	width: 100px;
+    height: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    color: red;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+	text-decoration:none;
+}
+/* Media Query for screens smaller than 768px (tablets) */
+@media (max-width: 768px) {
+    .maindiv {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    .box1 {
+        width: 90%; /* Adjust the width for smaller screens */
+        padding: 10px; /* Keep padding for inner spacing */
+    }
+
+    .inbox1, .inbox9 {
+        padding: 10px; /* Adjust padding for better spacing */
+    }
+
+    .inbox2, .inbox5, .inbox10, .billingBox, .billingBox1, .billingBox2, .ContactsBox2 {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    .inbox4, .inbox12 {
+        width: 100%; /* Set full width */
+        padding-top: 10px; /* Add padding to separate content */
+    }
+
+    .input1, .input2, .input3, .billingInput1, .billingSelect1 {
+        width: 100%; /* Adjust input fields to fit the container */
+    }
+
+    .paymentBtn {
+        flex-direction: column; /* Stack buttons */
+        align-items: flex-start; /* Align buttons to the left */
+    }
+
+    .btn1, .btn2 {
+        width: 100%; /* Full-width buttons for easier interaction */
+        margin-left: 0; /* Remove left margin */
+        text-align: center;
+    }
+
+    .confirmBtn, .cancelBtn {
+        width: 100%; /* Full-width for buttons */
+        margin-left: 0; /* Remove margins */
+        text-align: center;
+    }
+}
+
+/* Media Query for screens smaller than 480px (mobile phones) */
+@media (max-width: 480px) {
+    .box1 {
+        width: 100%; /* Use full width for mobile */
+        padding: 10px; /* Adjust padding for mobile */
+    }
+
+    .input1, .input2, .input3, .billingInput1, .billingSelect1 {
+        width: 100%; /* Full width input fields */
+    }
+
+    .btn1, .btn2 {
+        width: 100%; /* Full-width buttons for mobile */
+    }
+
+    .confirmBtn, .cancelBtn {
+        width: 100%; /* Full-width buttons */
+        margin-left: 0; /* Remove margins */
+        text-align: center;
+    }
+
+    .visaImg {
+        width: 80px; /* Reduce image size for mobile */
+        height: auto; /* Keep aspect ratio */
+    }
+
+    .billingBox, .ContactsDetailsBox {
+        flex-direction: column; /* Stack elements */
+        width: 100%; /* Full width */
+    }
+}
